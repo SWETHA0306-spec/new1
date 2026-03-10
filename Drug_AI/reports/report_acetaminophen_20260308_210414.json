@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "timestamp": "2026-03-08T21:03:49",
+    "source_mode": "image",
+    "pipeline_version": "1.0.0"
+  },
+  "drug_identity": {
+    "input_name": "Paracemeter-500",
+    "canonical_name": "acetaminophen",
+    "brand_name": "Paracemeter-500",
+    "generic_name": "Paracetamol",
+    "drug_class": "Acetaminophen",
+    "rxcui": "161",
+    "pubchem_cid": 1983,
+    "mol_formula": "C8H9NO2",
+    "mol_weight": "151.16",
+    "smiles": null,
+    "route": "ORAL",
+    "product_type": "HUMAN PRESCRIPTION DRUG",
+    "manufacturer": "A-S Medication Solutions",
+    "dosage": "IP 500 mg",
+    "dosage_form": "Tablets",
+    "batch_no": null,
+    "exp_date": null,
+    "storage": null
+  },
+  "authenticity": {
+    "verdict": "🚨 ALERT",
+    "level": "HIGH",
+    "score": 0.4,
+    "flags": [
+      "Missing fields on label: batch_no, mfg_date, exp_date, manufacturer"
+    ]
+  },
+  "interactions": {
+    "overall_risk": "NONE",
+    "risk_score": 0.0,
+    "summary": {
+      "contraindicated": 0,
+      "major": 0,
+      "moderate": 0,
+      "minor": 0,
+      "unknown": 0
+    },
+    "drugs_checked": [
+      "acetaminophen",
+      "Aspirin",
+      "Dolo 650",
+      "Monticop"
+    ],
+    "drugs_unresolved": [
+      "Aspirin",
+      "Dolo 650",
+      "Monticop"
+    ],
+    "detail": []
+  },
+  "combined_risk": {
+    "level": "MODERATE",
+    "score": 0.16
+  }
+}
